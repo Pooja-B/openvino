@@ -171,14 +171,14 @@ Previous 2025 releases
 	*CPU Device Plugin*
 	
 	* Sage Attention is now supported. This feature is turned on with the ``ENABLE_SAGE_ATTN`` property, providing a performance boost for 1st token generation in LLMs with long prompts, while maintaining accuracy. 
-    * FP16 model performance on 6th generation Intel® Xeon® processors has been enhanced by improving utilization of the underlying AMX FP16 capabilities and graph-level optimizations.
+	* FP16 model performance on 6th generation Intel® Xeon® processors has been enhanced by improving utilization of the underlying AMX FP16 capabilities and graph-level optimizations.
 	
 	*GPU Device Plugin*
 	
 	* LLM accuracy has been improved with by-channel key cache compression. Default KV-cache compression has also been switched from by-token to by-channel compression.
-    * Gemma3-4b and Qwen-VL VLM performance has been improved on XMX-supporting platforms. 
-    * Basic functionalities for dynamic shape custom operations in GPU extension have been enabled. 
-    * LoRA performance has been improved for systolic platforms. 
+	* Gemma3-4b and Qwen-VL VLM performance has been improved on XMX-supporting platforms. 
+	* Basic functionalities for dynamic shape custom operations in GPU extension have been enabled. 
+	* LoRA performance has been improved for systolic platforms. 
 
 	 
 	*NPU Device Plugin*
